@@ -14,3 +14,5 @@ Example usage:
 Export .json output from Bitwarden Vault: https://vault.bitwarden.com and then pass it through the script. 
 python3 bw_dedupe.py my_export.json cleaned.json  # custom output name
 No dependencies or requirements other than python on macOS 26. 
+
+NOTE: Tested on my personal vault using Version 2026.2.1 (57189) of Bitwarden. I offer no warranties, no support, no guarantees and/or I am not liable for any damage to a Bitwarden vault from the usage of this python script. *Proceed at your own risk and please, keep a seperate backup of your vault*
