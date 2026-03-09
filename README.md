@@ -1,3 +1,5 @@
+Removes duplicates within the Bitwarden Vault (required after importing from multiple places e.g. iCloud Keychain and another password manager)
+
 How grouping works: two entries are treated as duplicates if they share the same primary domain (scheme/www/trailing slashes stripped) and username. Items with no URL fall back to matching on name + username. Non-login items (cards, identities, notes) group by type + exact name only, to be conservative.
 What gets merged across duplicates:
 
